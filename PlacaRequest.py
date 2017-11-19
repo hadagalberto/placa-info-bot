@@ -28,17 +28,22 @@ def handle(msg):
 
 
 def retornaPlaca(info, chat):
-    texto = '@PlacaInfoBot\n\n'
-    texto += 'Placa: ' + info['plate'] + '\n'
-    texto += 'Marca/Modelo: ' + info['model'] + '\n'
-    texto += 'Chassis: ' + info['chassis'] + '\n'
-    texto += 'Cor: ' + info['color'] + '\n'
-    texto += 'Ano de Fabricação: ' + info['year'] + '\n'
-    texto += 'Modelo de Fabricação: ' + info['model_year'] + '\n'
-    texto += 'Cidade - Estado: ' + info['city'] + info['state'] + '\n'
-    texto += 'Status: ' + info['status_message'] + '\n\n'
-    texto += 'Dados do SINESP'
-    bot.sendMessage(chat, texto)
+    try:
+        texto = '@PlacaInfoBot\n\n'
+        texto += 'Placa: ' + info['plate'] + '\n'
+        texto += 'Marca/Modelo: ' + info['model'] + '\n'
+        texto += 'Chassis: ' + info['chassis'] + '\n'
+        texto += 'Cor: ' + info['color'] + '\n'
+        texto += 'Ano de Fabricação: ' + info['year'] + '\n'
+        texto += 'Modelo de Fabricação: ' + info['model_year'] + '\n'
+        texto += 'Cidade - Estado: ' + info['city'] + info['state'] + '\n'
+        texto += 'Status: ' + info['status_message'] + '\n\n'
+        texto += 'Dados do SINESP'
+        bot.sendMessage(chat, texto)
+    except IndexError:
+        bot.sendMessage(chat, 'Erro ao buscar a placa informada, verifique se está correta')
+        pass
+
     #print(texto)
 
 MessageLoop(bot, handle).run_forever()
