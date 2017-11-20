@@ -36,7 +36,7 @@ def retornaPlaca(info, chat):
         texto += 'Cor: ' + info['color'] + '\n'
         texto += 'Ano de Fabricação: ' + info['year'] + '\n'
         texto += 'Modelo de Fabricação: ' + info['model_year'] + '\n'
-        texto += 'Cidade - Estado: ' + info['city'] + info['state'] + '\n'
+        texto += 'Cidade - Estado: ' + info['city'] + " - " + info['state'] + '\n'
         texto += 'Status: ' + info['status_message'] + '\n\n'
         texto += 'Dados do SINESP'
         bot.sendMessage(chat, texto)
