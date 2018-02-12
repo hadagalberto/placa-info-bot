@@ -5,7 +5,7 @@ from telepot.loop import MessageLoop
 import json
 
 requests.packages.urllib3.disable_warnings()
-bot = telepot.Bot("TOKEN_DO_BOT")
+bot = telepot.Bot("465979573:AAEMqFejVBwqJaRBFsTBU-FBMba2Bk5eFcw")
 
 def consulta(placa, chat):
     sc = SinespClient()
