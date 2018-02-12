@@ -17,10 +17,13 @@
       <file leaf-file-name="PlacaRequest.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/PlacaRequest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="633">
-              <caret line="43" column="92" lean-forward="true" selection-start-line="43" selection-start-column="92" selection-end-line="43" selection-end-column="92" />
+            <state relative-caret-position="497">
+              <caret line="43" column="92" lean-forward="false" selection-start-line="43" selection-start-column="92" selection-end-line="43" selection-end-column="92" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
+                <marker date="1511194125809" expanded="true" signature="1335:1492" ph="..." />
+                <marker date="1511194125809" expanded="true" signature="1335:1640" ph="..." />
+                <marker date="1511194125809" expanded="true" signature="1515:1640" ph="..." />
               </folding>
             </state>
           </provider>
@@ -106,7 +109,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -118,7 +121,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -222,6 +225,46 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
+            <marker date="1511194125809" expanded="true" signature="1335:1492" ph="..." />
+            <marker date="1511194125809" expanded="true" signature="1335:1640" ph="..." />
+            <marker date="1511194125809" expanded="true" signature="1515:1640" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/setup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Procfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="30" lean-forward="false" selection-start-line="0" selection-start-column="30" selection-end-line="0" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PlacaRequest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+            <marker date="1511194125809" expanded="true" signature="1335:1492" ph="..." />
+            <marker date="1511194125809" expanded="true" signature="1335:1640" ph="..." />
+            <marker date="1511194125809" expanded="true" signature="1515:1640" ph="..." />
           </folding>
         </state>
       </provider>
@@ -232,6 +275,9 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
+            <marker date="1511194125809" expanded="true" signature="1335:1492" ph="..." />
+            <marker date="1511194125809" expanded="true" signature="1335:1640" ph="..." />
+            <marker date="1511194125809" expanded="true" signature="1515:1640" ph="..." />
           </folding>
         </state>
       </provider>
@@ -244,14 +290,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/requeriments.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/requeriments.txt" />
     <entry file="file://$PROJECT_DIR$/Procfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -278,10 +317,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/PlacaRequest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="633">
-          <caret line="43" column="92" lean-forward="true" selection-start-line="43" selection-start-column="92" selection-end-line="43" selection-end-column="92" />
+        <state relative-caret-position="497">
+          <caret line="43" column="92" lean-forward="false" selection-start-line="43" selection-start-column="92" selection-end-line="43" selection-end-column="92" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
+            <marker date="1511194125809" expanded="true" signature="1335:1492" ph="..." />
+            <marker date="1511194125809" expanded="true" signature="1335:1640" ph="..." />
+            <marker date="1511194125809" expanded="true" signature="1515:1640" ph="..." />
           </folding>
         </state>
       </provider>
