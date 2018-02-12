@@ -5,7 +5,7 @@ from telepot.loop import MessageLoop
 import json
 
 requests.packages.urllib3.disable_warnings()
-bot = telepot.Bot("465979573:AAEMqFejVBwqJaRBFsTBU-FBMba2Bk5eFcw")
+bot = telepot.Bot("465979573:AAGQM-h25G17NkN42Rb1h64CVoKvwiCJfCI")
 
 def consulta(placa, chat):
     sc = SinespClient()
@@ -30,14 +30,14 @@ def handle(msg):
 def retornaPlaca(info, chat):
     try:
         texto = '@PlacaInfoBot\n\n'
-        texto += 'Placa: ' + info['plate'] + '\n'
-        texto += 'Marca/Modelo: ' + info['model'] + '\n'
-        texto += 'Chassis: ' + info['chassis'] + '\n'
-        texto += 'Cor: ' + info['color'] + '\n'
-        texto += 'Ano de Fabricação: ' + info['year'] + '\n'
-        texto += 'Modelo de Fabricação: ' + info['model_year'] + '\n'
-        texto += 'Cidade - Estado: ' + info['city'] + " - " + info['state'] + '\n'
-        texto += 'Status: ' + info['status_message'] + '\n\n'
+        texto += 'Placa: ' + str(info['plate']) + '\n'
+        texto += 'Marca/Modelo: ' + str(info['model']) + '\n'
+        texto += 'Chassis: ' + str( info['chassis']) + '\n'
+        texto += 'Cor: ' + str(info['color']) + '\n'
+        texto += 'Ano de Fabricação: ' + str(info['year']) + '\n'
+        texto += 'Modelo de Fabricação: ' + str(info['model_year']) + '\n'
+        texto += 'Cidade - Estado: ' + str(info['city']) + " - " + str(info['state']) + '\n'
+        texto += 'Status: ' + str(info['status_message']) + '\n\n'
         texto += 'Dados do SINESP'
         bot.sendMessage(chat, texto)
     except IndexError:
